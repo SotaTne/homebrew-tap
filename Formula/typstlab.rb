@@ -11,6 +11,14 @@ class Typstlab < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/SotaTne/homebrew-tap/releases/download/typstlab-0.1.2"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b87440243b0909e2a9efab6dda42f7524930ce7559c6c634e6f86b2ea3d2864b"
+    sha256 cellar: :any_skip_relocation, arm64_linux:  "a2e81997a3f1d8028b277340a0b0f9651ee239eb78cb76d3e0b076c3621f8095"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c8aedc90abe725b101eefc601b70b82e83a24731b3e6d4e43ce95ef5945b11bc"
+  end
+
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
 
