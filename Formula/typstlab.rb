@@ -1,5 +1,5 @@
 class Typstlab < Formula
-  desc "CLI tool for managing Typst writing projects"
+  desc "Manage Typst writing projects"
   homepage "https://github.com/SotaTne/typstlab"
   url "https://github.com/SotaTne/typstlab/archive/refs/tags/v0.1.2.tar.gz"
   sha256 "0009a758b4d1e19211ce8771c7ef8b7320daf9ea9b170b4e10c56ba2081f7d91"
