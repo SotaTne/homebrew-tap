@@ -1,8 +1,8 @@
 class Typstlab < Formula
   desc "CLI tool for managing Typst writing projects"
   homepage "https://github.com/SotaTne/typstlab"
-  url "https://github.com/SotaTne/typstlab/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "eb4d132c474d1fc12c71d4e73581e6f1faaa25eaa13a6a808d1d7eefbfac8af9"
+  url "https://github.com/SotaTne/typstlab/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "0009a758b4d1e19211ce8771c7ef8b7320daf9ea9b170b4e10c56ba2081f7d91"
   license "Apache-2.0"
   head "https://github.com/SotaTne/typstlab.git", branch: "main"
 
